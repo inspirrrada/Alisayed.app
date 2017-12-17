@@ -16,7 +16,8 @@ body {
   overflow: hidden; }
 
 .block-1 {
-  font-size: 0; }
+  font-size: 0;
+  line-height: 0; }
 
 .main-photo {
   display: inline-block;
@@ -26,8 +27,9 @@ body {
   display: inline-block;
   width: 30%;
   vertical-align: top;
-  padding: 55px 25px 55px 50px;
+  padding: 55px 25px 5px 50px;
   font-size: 18px;
+  line-height: 28px;
   letter-spacing: 0.03em; }
   .main-description .menu-icon {
     margin-bottom: 65px; }
@@ -46,6 +48,91 @@ h1 {
     font-weight: 300; }
   h1 .bold {
     font-weight: bold; }
+
+.block-2 {
+  font-size: 0; }
+
+.functions {
+  background: url("../img/bg-1.jpg") no-repeat;
+  display: inline-block;
+  width: 45%;
+  padding: 55px 75px 60px 60px; }
+
+.function-block {
+  margin-bottom: 65px; }
+  .function-block h2 {
+    font-size: 45px;
+    line-height: 66px;
+    letter-spacing: 0.03em;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 25px; }
+    .function-block h2 .black {
+      font-weight: 900; }
+  .function-block p {
+    font-size: 16px;
+    line-height: 28px;
+    color: white; }
+
+.features {
+  display: inline-block;
+  width: 55%;
+  vertical-align: top; }
+
+button {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  padding: 10px 0;
+  width: 200px; }
+  button:hover {
+    cursor: pointer;
+    font-weight: bold; }
+
+.starting {
+  background: url("../img/bg-2.jpg") no-repeat;
+  padding: 60px 155px 65px 55px; }
+  .starting h2 {
+    font-size: 45px;
+    line-height: 66px;
+    letter-spacing: 0.03em;
+    color: #262f32;
+    font-weight: 300;
+    margin-bottom: 20px; }
+    .starting h2 .black {
+      font-weight: 900; }
+  .starting p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #262f32;
+    margin-bottom: 50px; }
+  .starting button {
+    color: #262f32;
+    border-color: #262f32; }
+
+.verified {
+  background: url("../img/bg-3.jpg") no-repeat;
+  padding: 60px 155px 64px 55px; }
+  .verified h2 {
+    font-size: 45px;
+    line-height: 66px;
+    letter-spacing: 0.03em;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 20px; }
+    .verified h2 .black {
+      font-weight: 900; }
+  .verified p {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px; }
+  .verified button {
+    color: white;
+    border-color: white; }
 
 @media (min-width: 1370px) {
   .wrapper {
